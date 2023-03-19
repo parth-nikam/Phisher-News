@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BEECE0E29C6C565002C2933 /* Phisher_NewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEECE0D29C6C565002C2933 /* Phisher_NewsApp.swift */; };
+		7BEECE1029C6C565002C2933 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEECE0F29C6C565002C2933 /* ContentView.swift */; };
+		7BEECE1229C6C566002C2933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BEECE1129C6C566002C2933 /* Assets.xcassets */; };
+		7BEECE1529C6C566002C2933 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BEECE1429C6C566002C2933 /* Preview Assets.xcassets */; };
+		7BEECE1F29C6C567002C2933 /* Phisher_NewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEECE1E29C6C567002C2933 /* Phisher_NewsTests.swift */; };
+		7BEECE2929C6C567002C2933 /* Phisher_NewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEECE2829C6C567002C2933 /* Phisher_NewsUITests.swift */; };
+		7BEECE2B29C6C567002C2933 /* Phisher_NewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEECE2A29C6C567002C2933 /* Phisher_NewsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BEECE1B29C6C567002C2933 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BEECE0229C6C565002C2933 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BEECE0929C6C565002C2933;
+			remoteInfo = "Phisher News";
+		};
+		7BEECE2529C6C567002C2933 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BEECE0229C6C565002C2933 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BEECE0929C6C565002C2933;
+			remoteInfo = "Phisher News";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BEECE0A29C6C565002C2933 /* Phisher News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Phisher News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BEECE0D29C6C565002C2933 /* Phisher_NewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phisher_NewsApp.swift; sourceTree = "<group>"; };
+		7BEECE0F29C6C565002C2933 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7BEECE1129C6C566002C2933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BEECE1429C6C566002C2933 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7BEECE1A29C6C567002C2933 /* Phisher NewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Phisher NewsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BEECE1E29C6C567002C2933 /* Phisher_NewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phisher_NewsTests.swift; sourceTree = "<group>"; };
+		7BEECE2429C6C567002C2933 /* Phisher NewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Phisher NewsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BEECE2829C6C567002C2933 /* Phisher_NewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phisher_NewsUITests.swift; sourceTree = "<group>"; };
+		7BEECE2A29C6C567002C2933 /* Phisher_NewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phisher_NewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BEECE0729C6C565002C2933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BEECE1729C6C567002C2933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BEECE2129C6C567002C2933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BEECE0129C6C565002C2933 = {
+			isa = PBXGroup;
+			children = (
+				7BEECE0C29C6C565002C2933 /* Phisher News */,
+				7BEECE1D29C6C567002C2933 /* Phisher NewsTests */,
+				7BEECE2729C6C567002C2933 /* Phisher NewsUITests */,
+				7BEECE0B29C6C565002C2933 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BEECE0B29C6C565002C2933 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BEECE0A29C6C565002C2933 /* Phisher News.app */,
+				7BEECE1A29C6C567002C2933 /* Phisher NewsTests.xctest */,
+				7BEECE2429C6C567002C2933 /* Phisher NewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BEECE0C29C6C565002C2933 /* Phisher News */ = {
+			isa = PBXGroup;
+			children = (
+				7BEECE0D29C6C565002C2933 /* Phisher_NewsApp.swift */,
+				7BEECE0F29C6C565002C2933 /* ContentView.swift */,
+				7BEECE1129C6C566002C2933 /* Assets.xcassets */,
+				7BEECE1329C6C566002C2933 /* Preview Content */,
+			);
+			path = "Phisher News";
+			sourceTree = "<group>";
+		};
+		7BEECE1329C6C566002C2933 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7BEECE1429C6C566002C2933 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7BEECE1D29C6C567002C2933 /* Phisher NewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BEECE1E29C6C567002C2933 /* Phisher_NewsTests.swift */,
+			);
+			path = "Phisher NewsTests";
+			sourceTree = "<group>";
+		};
+		7BEECE2729C6C567002C2933 /* Phisher NewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BEECE2829C6C567002C2933 /* Phisher_NewsUITests.swift */,
+				7BEECE2A29C6C567002C2933 /* Phisher_NewsUITestsLaunchTests.swift */,
+			);
+			path = "Phisher NewsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BEECE0929C6C565002C2933 /* Phisher News */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BEECE2E29C6C567002C2933 /* Build configuration list for PBXNativeTarget "Phisher News" */;
+			buildPhases = (
+				7BEECE0629C6C565002C2933 /* Sources */,
+				7BEECE0729C6C565002C2933 /* Frameworks */,
+				7BEECE0829C6C565002C2933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Phisher News";
+			productName = "Phisher News";
+			productReference = 7BEECE0A29C6C565002C2933 /* Phisher News.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BEECE1929C6C567002C2933 /* Phisher NewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BEECE3129C6C567002C2933 /* Build configuration list for PBXNativeTarget "Phisher NewsTests" */;
+			buildPhases = (
+				7BEECE1629C6C567002C2933 /* Sources */,
+				7BEECE1729C6C567002C2933 /* Frameworks */,
+				7BEECE1829C6C567002C2933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BEECE1C29C6C567002C2933 /* PBXTargetDependency */,
+			);
+			name = "Phisher NewsTests";
+			productName = "Phisher NewsTests";
+			productReference = 7BEECE1A29C6C567002C2933 /* Phisher NewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BEECE2329C6C567002C2933 /* Phisher NewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BEECE3429C6C567002C2933 /* Build configuration list for PBXNativeTarget "Phisher NewsUITests" */;
+			buildPhases = (
+				7BEECE2029C6C567002C2933 /* Sources */,
+				7BEECE2129C6C567002C2933 /* Frameworks */,
+				7BEECE2229C6C567002C2933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BEECE2629C6C567002C2933 /* PBXTargetDependency */,
+			);
+			name = "Phisher NewsUITests";
+			productName = "Phisher NewsUITests";
+			productReference = 7BEECE2429C6C567002C2933 /* Phisher NewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BEECE0229C6C565002C2933 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					7BEECE0929C6C565002C2933 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					7BEECE1929C6C567002C2933 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7BEECE0929C6C565002C2933;
+					};
+					7BEECE2329C6C567002C2933 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7BEECE0929C6C565002C2933;
+					};
+				};
+			};
+			buildConfigurationList = 7BEECE0529C6C565002C2933 /* Build configuration list for PBXProject "Phisher News" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BEECE0129C6C565002C2933;
+			productRefGroup = 7BEECE0B29C6C565002C2933 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BEECE0929C6C565002C2933 /* Phisher News */,
+				7BEECE1929C6C567002C2933 /* Phisher NewsTests */,
+				7BEECE2329C6C567002C2933 /* Phisher NewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BEECE0829C6C565002C2933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BEECE1529C6C566002C2933 /* Preview Assets.xcassets in Resources */,
+				7BEECE1229C6C566002C2933 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BEECE1829C6C567002C2933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BEECE2229C6C567002C2933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BEECE0629C6C565002C2933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BEECE1029C6C565002C2933 /* ContentView.swift in Sources */,
+				7BEECE0E29C6C565002C2933 /* Phisher_NewsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BEECE1629C6C567002C2933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BEECE1F29C6C567002C2933 /* Phisher_NewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BEECE2029C6C567002C2933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BEECE2929C6C567002C2933 /* Phisher_NewsUITests.swift in Sources */,
+				7BEECE2B29C6C567002C2933 /* Phisher_NewsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BEECE1C29C6C567002C2933 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BEECE0929C6C565002C2933 /* Phisher News */;
+			targetProxy = 7BEECE1B29C6C567002C2933 /* PBXContainerItemProxy */;
+		};
+		7BEECE2629C6C567002C2933 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BEECE0929C6C565002C2933 /* Phisher News */;
+			targetProxy = 7BEECE2529C6C567002C2933 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7BEECE2C29C6C567002C2933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BEECE2D29C6C567002C2933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BEECE2F29C6C567002C2933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Phisher News/Preview Content\"";
+				DEVELOPMENT_TEAM = 8CRPBP2B68;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parthnikam.Phisher-News";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BEECE3029C6C567002C2933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Phisher News/Preview Content\"";
+				DEVELOPMENT_TEAM = 8CRPBP2B68;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parthnikam.Phisher-News";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7BEECE3229C6C567002C2933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CRPBP2B68;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parthnikam.Phisher-NewsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phisher News.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Phisher News";
+			};
+			name = Debug;
+		};
+		7BEECE3329C6C567002C2933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CRPBP2B68;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parthnikam.Phisher-NewsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phisher News.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Phisher News";
+			};
+			name = Release;
+		};
+		7BEECE3529C6C567002C2933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CRPBP2B68;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parthnikam.Phisher-NewsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Phisher News";
+			};
+			name = Debug;
+		};
+		7BEECE3629C6C567002C2933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CRPBP2B68;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parthnikam.Phisher-NewsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Phisher News";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BEECE0529C6C565002C2933 /* Build configuration list for PBXProject "Phisher News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BEECE2C29C6C567002C2933 /* Debug */,
+				7BEECE2D29C6C567002C2933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BEECE2E29C6C567002C2933 /* Build configuration list for PBXNativeTarget "Phisher News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BEECE2F29C6C567002C2933 /* Debug */,
+				7BEECE3029C6C567002C2933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BEECE3129C6C567002C2933 /* Build configuration list for PBXNativeTarget "Phisher NewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BEECE3229C6C567002C2933 /* Debug */,
+				7BEECE3329C6C567002C2933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BEECE3429C6C567002C2933 /* Build configuration list for PBXNativeTarget "Phisher NewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BEECE3529C6C567002C2933 /* Debug */,
+				7BEECE3629C6C567002C2933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BEECE0229C6C565002C2933 /* Project object */;
+}
